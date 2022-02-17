@@ -1,0 +1,69 @@
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+} */
+img {
+	vertical-align: top;
+}
+/* --------------- */
+#id {
+	color: crimson;
+}
+li {
+	color: darkgreen;
+}
+.text {
+	color: darkorange;
+}
+
+.text_line {
+	color: darkolivegreen;
+}
+.text_blue {
+	color: blue;
+}
+.content_item {
+	color: grey;
+}
+.content_item {
+	color: yellow;
+}
+.content_item-red {
+	color: red;
+}
+.item {
+	color: black;
+}
+.items {
+	color: fuchsia;
+}
+.paragraf > span {
+	color: brown;
+}
+
+.paragraf_item-red {
+	color: red;
+}
